@@ -1,0 +1,34 @@
+@keyframes textPrimario{
+    from{
+        opacity: 0;
+        transform: translatey(-200px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(none);
+    }
+}
+
+.textoPrimario{
+    animation: textPrimario 3s forwards;
+}
+
+@keyframes textSecundario{
+    from{
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+        transform: translatey(100px);
+    }
+
+    to{
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(none);
+    }
+}
+
+.textoSecundario{
+    animation: textSecundario 3s forwards;
+}
