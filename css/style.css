@@ -13,7 +13,6 @@ body{
     align-items: center;
     justify-content:center;
     gap: 20rem;
-    border-bottom: 5px double white;
     height: 5rem;
 }
 
@@ -23,8 +22,10 @@ ul{
     gap: 2rem;
 }
 
-.nav{
+li{
     font-size: 1.2rem;
+    /*Linha abaixo serve para remover a decoração das li do HTML.*/
+    list-style-type: none;
 }
 
 #textoPrimarioCenter{
@@ -70,11 +71,18 @@ ul{
 }
 
 #img3d{
-    display: flex;
     width: 70%;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
+    margin: 0 auto 6rem;
+}
+
+#imgTecnologia{
+    border-radius: 20px;
+}
+
+.titCrescimento{
+    color: white;
+    text-align: center;
+    margin: 2rem 0rem 6rem;
 }
 
 .divCrescimento{
@@ -84,4 +92,39 @@ ul{
     border-radius: 10px;
     margin: 2rem auto;
 
+}
+
+.artigos{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.titArtigos{
+    color: white;
+    text-align: center;
+    margin: 6rem 0 6rem;
+
+}
+
+.divArtigos{
+    width: 300px;
+    height: 300px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.titDepoimentos{
+    color: white;
+    text-align: center;
+    margin: 6rem 0 6rem;
+}
+
+.divDepoimentos{
+    width: 50rem;
+    height: 20rem;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 0 auto;
 }
