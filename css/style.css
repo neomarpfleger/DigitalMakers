@@ -82,10 +82,11 @@ li{
 
 #imgTecnologia{
     border-radius: 20px;
-    box-shadow: 15px -50px 500px 50px rgb(11, 16, 59);
+    box-shadow: 15px -50px 500px 70px rgb(25, 32, 50);
 }
 
 .titCrescimento{
+    font-family: var(--font-family-principal);
     color: white;
     text-align: center;
     margin: 2rem 0rem 6rem;
@@ -97,7 +98,13 @@ li{
     border: 1px solid white;
     border-radius: 10px;
     margin: 2rem auto;
+    color: white;
+}
 
+.icones{
+    width: 2rem;
+    font-size: 2rem;
+    color: white;
 }
 
 .artigos{
