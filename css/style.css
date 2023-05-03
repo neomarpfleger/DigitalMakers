@@ -74,6 +74,11 @@ li{
     margin: 7rem auto;
 }
 
+#btnOrcamentos:hover{
+    cursor: pointer;
+    opacity: 0.20;
+}
+
 #img3d{
     width: 70%;
     margin: 0 auto 6rem;
@@ -102,6 +107,11 @@ li{
     border-radius: 10px;
     margin: 2rem auto;
     color: white;
+    background-image: linear-gradient(to right,rgb(14, 13, 13),rgb(81, 10, 81));
+}
+
+.divCrescimento p{
+    margin-right: 1rem;
 }
 
 .icones{
