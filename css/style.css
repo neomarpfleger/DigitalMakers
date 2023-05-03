@@ -93,18 +93,23 @@ li{
 }
 
 .divCrescimento{
+    display: flex;
+    gap: 1rem;
     width: 60%;
     height: 5rem;
     border: 1px solid white;
+    align-items: center;
     border-radius: 10px;
     margin: 2rem auto;
     color: white;
 }
 
 .icones{
-    width: 2rem;
+    width: auto;
+    height: auto;
     font-size: 2rem;
     color: white;
+    margin-left: 1rem;
 }
 
 .artigos{
