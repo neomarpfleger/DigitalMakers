@@ -1,7 +1,7 @@
 @keyframes textPrimario{
     from{
         opacity: 0;
-        transform: translatey(-200px);
+        transform: translateY(-200px);
     }
 
     to{
@@ -19,7 +19,7 @@
         display: none;
         visibility: hidden;
         opacity: 0;
-        transform: translatey(100px);
+        transform: translateY(100px);
     }
 
     to{

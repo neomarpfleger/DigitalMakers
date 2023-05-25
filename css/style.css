@@ -1,6 +1,7 @@
 :root{
    --color-texto: white; 
    --font-family-principal: 'Secular One', sans-serif;
+   --font-family-segundaria: 'Raleway', sans-serif;
 }
 
 body{
@@ -23,16 +24,33 @@ ul{
     gap: 2rem;
 }
 
-li{
+.nav{
     font-family: var(--font-family-principal);
     font-size: 1.2rem;
     /*Linha abaixo serve para remover a decoração das li do HTML.*/
     list-style-type: none;
+    position: relative;
+}
+
+.nav::after{
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: #f5f578;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+
+}
+
+.nav:hover::after{
+    width: 100%;
 }
 
 .nav:hover{
     cursor: pointer;
-    color: gold;
+    color: #f5f578;
 }
 
 #textoPrimarioCenter{
@@ -93,7 +111,7 @@ li{
 #imgTecnologia{
     width: 100%;
     border-radius: 20px;
-    box-shadow: 15px -50px 500px 70px rgb(25, 32, 50);
+    box-shadow: 15px -50px 300px 10px rgb(25, 32, 50);
 }
 
 .titCrescimento{
@@ -118,6 +136,8 @@ li{
 
 .divCrescimento p{
     margin-right: 1rem;
+    color: var(--color-texto);
+    font-family: var(--font-family-segundaria);
 }
 
 .icones{
