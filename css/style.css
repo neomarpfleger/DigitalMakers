@@ -19,6 +19,10 @@ body{
     height: 5rem;
 }
 
+.logoSite{
+    font-family: var(--font-family-principal);
+}
+
 ul{
     display: flex;
     flex-direction: row;
@@ -156,6 +160,7 @@ ul{
 }
 
 .titArtigos{
+    font-family: var(--font-family-principal);
     color: white;
     text-align: center;
     margin: 6rem 0 6rem;
@@ -169,13 +174,18 @@ ul{
     border-radius: 20px;
 }
 
-.titDepoimentos{
+.Depoimentos{
+    display: none;
+}
+
+.tit .Depoimentos{
+
     color: white;
     text-align: center;
     margin: 6rem 0 6rem;
 }
 
-.divDepoimentos{
+.div .Depoimentos{
     width: 50rem;
     height: 20rem;
     border: 1px solid white;
@@ -187,11 +197,35 @@ footer{
     display: flex;
     width: 100%;
     height: 15rem;
-    align-items: end;
-    justify-content: center;
 }
+
+.contatos{
+    width: 90%;
+    height: 5rem;
+    margin: 0 auto;
+    border-bottom: 1px;
+}
+
+.rodape{
+    display: flex;
+    width: 100%;
+    height: 5rem;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.redesSociais{
+    padding-left: 3rem;
+}
+
+footer i{
+    color: var(--color-texto);
+    margin: 0 1rem 0.5rem;
+}
+
 
 .copy{
     font-size: 1rem;
     color: white;
+    padding-right: 3rem;
 }
