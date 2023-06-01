@@ -198,21 +198,38 @@ footer{
     width: 100%;
 }
 
-#email{
-    display: grid;
-    grid-row-start: 1;
-    grid-row-end: 3;
-    align-items: center;
-    justify-content: center;
-}
-
 .contatos{
     display: grid;
-    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 50% 25% 25%;
     height: 20rem;
     color: var(--color-texto);
     
 }
+
+#email{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.7rem;
+}
+
+ul{
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5px;
+}
+
+li{
+    margin: 0;
+}
+
 
 .rodape{
     display: flex;
