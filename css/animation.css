@@ -43,10 +43,40 @@
 }
 
 [data-anime="right"]{
-    transform: translate3d(100px, 0, 0);   
+    transform: translate3d(-150px, 0, 0);   
 }
+
+/*[data-anime="bottom"].divArtigos{
+    transform: translate3d(0, 150px, 0);
+}*/
 
 [data-anime].animete{
     opacity: 1;
     transform: translate3d(0, 0, 0);
+}
+
+@keyframes textPrimari{
+    from{
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+        transform: translateY(150px);
+    }
+
+    to{
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(none);
+    }
+}
+
+.divArtigos{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.divArtigos.animete{
+    opacity: 1;
+    visibility: visible;
+    animation: textPrimari 3s;
 }
