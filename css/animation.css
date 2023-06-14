@@ -55,7 +55,7 @@
     transform: translate3d(0, 0, 0);
 }
 
-@keyframes textPrimari{
+@keyframes projetos{
     from{
         display: none;
         visibility: hidden;
@@ -78,5 +78,5 @@
 .divArtigos.animete{
     opacity: 1;
     visibility: visible;
-    animation: textPrimari 3s;
+    animation: projetos 2s;
 }
