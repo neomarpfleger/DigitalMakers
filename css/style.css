@@ -244,6 +244,12 @@ footer{
 
 .itemContato{
     margin: 0.3rem;
+    font-size: 1.1rem;
+}
+
+.itemContato a{
+    text-decoration: none;
+    color: white;
 }
 
 .rodape{
@@ -258,10 +264,15 @@ footer{
 
 .redesSociais{
     margin-right: 45rem;
+    font-size: 2.5rem;
 }
 
 .redesSociais i{
     margin: 0 1rem 0.5rem;
+}
+
+.redesSociais:hover{
+    cursor: pointer;
 }
 
 footer i{
@@ -272,4 +283,7 @@ footer i{
     font-size: 1rem;
     color: white;
     margin-bottom:0.3rem ;
+}
+.textoCopy{
+    margin-bottom: 0px;
 }
