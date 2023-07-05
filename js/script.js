@@ -37,6 +37,6 @@ animeScroll()
 if(target.length){
   window.addEventListener("scroll", debounce (function(){
     animeScroll();
-    console.log('neomar')
+    console.log("Neomar")
   }, 20));
 }
