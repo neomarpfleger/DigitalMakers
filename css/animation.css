@@ -81,8 +81,28 @@
     animation: projetos 2s;
 }
 
+@keyframes diferencial{
+    from{
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+        transform: translateY(150px);
+    }
+
+    to{
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(none);
+    }
+}
+
+.diferencial{
+    opacity: 0;
+    visibility: hidden;
+}
+
 .diferencial.animete{
     opacity: 1;
     visibility: visible;
-    animation: projetos 2s; 
+    animation: diferencial 2s; 
 }
