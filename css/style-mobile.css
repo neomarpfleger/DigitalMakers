@@ -1,5 +1,6 @@
 @media screen and (max-width: 480px) {
     
+    .textoPrimario{
         box-sizing: border-box;
         font-size: 1rem;
         font-family: var(--font-family-principal);
