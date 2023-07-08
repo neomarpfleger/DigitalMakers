@@ -1,0 +1,67 @@
+@media screen and (max-width: 480px) {
+    
+        box-sizing: border-box;
+        font-size: 1rem;
+        font-family: var(--font-family-principal);
+        line-height: 1.2rem;
+        margin:2rem auto 0;
+    }
+
+    .textoPrimario h1{
+        margin: 0.2rem;
+    }
+
+    .textoSecundario{
+        font-size: 1rem;
+        line-height: 0.5rem;
+        opacity: 0;
+    }
+
+    #img3d{
+        width: 90%;
+        margin: 0 auto 6rem;
+    }
+    
+    #diferenciais{
+        display: flex;
+        height: 23rem;
+        font-family: var(--font-family-principal);
+        color: var(--color-texto);
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+    
+    .divCrescimento{
+        gap: 1rem;
+        width: 80%;
+        font-size: 0.6rem;
+        height: 5rem;
+        border: 1px solid white;
+    }
+    
+    .divCrescimento p{
+        margin-right: 0rem;
+    }
+
+    .projetos{
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        padding-bottom: 1.5rem;
+    }
+    
+    .titArtigos{
+        font-family: var(--font-family-principal);
+        color: white;
+        text-align: center;
+        margin: 6rem 0 6rem;
+    
+    }
+    
+    .divArtigos{
+        width: 200px;
+        height: 200px;
+        margin-bottom: 1rem;
+    }
+}

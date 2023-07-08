@@ -143,6 +143,7 @@ footer{
     font-family: var(--font-family-principal);
     color: var(--color-texto);
     gap: 10rem;
+    flex-wrap: wrap;
 }
 
 .diferencial{
