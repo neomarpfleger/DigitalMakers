@@ -136,7 +136,7 @@ footer{
 
 #diferenciais{
     display: flex;
-    width: 70%;
+    width: 80%;
     height: 20rem;
     contain: content;
     margin:  0 auto;
@@ -148,7 +148,8 @@ footer{
 
 .diferencial{
     display: flex;
-    width: 100%;
+    width: 15rem;
+    height: 15rem;
     background-color: #463DD6;
     border-radius: 10%;
     align-items: center;
@@ -241,7 +242,6 @@ footer{
     grid-template-columns: 50% 25% 25%;
     height: 25rem;
     color: var(--color-texto);
-    
 }
 
 #email{

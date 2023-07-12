@@ -25,11 +25,18 @@
     
     #diferenciais{
         display: flex;
-        height: 23rem;
+        height: 40rem;
         font-family: var(--font-family-principal);
         color: var(--color-texto);
         gap: 2rem;
         flex-wrap: wrap;
+    }
+
+    .diferencial{
+        width: 12rem;
+        height: 12rem;
+        margin: 0 auto;
+        font-size: 0.9rem;
     }
     
     .divCrescimento{
@@ -64,5 +71,21 @@
         width: 200px;
         height: 200px;
         margin-bottom: 1rem;
+    }
+
+    .contatos{
+        display: block;
+        height: auto;
+    }
+
+    #email p{
+        font-size: 1.5rem;
+    }
+
+    .rodape{
+        display: flex;
+        height: 9rem;
+        margin: 1rem auto;
+        justify-content: center;
     }
 }
