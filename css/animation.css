@@ -1,3 +1,5 @@
+
+/*-----------Animação texto de entrada-----------*/
 @keyframes textPrimario{
     from{
         opacity: 0;
@@ -33,6 +35,8 @@
     animation: textSecundario 3s forwards;
 }
 
+
+/*-----------Animação corpo do website-----------*/
 [data-anime]{
     opacity: 0;
     transition: 0.5s;

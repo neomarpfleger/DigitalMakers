@@ -43,6 +43,12 @@ footer{
     /*Linha abaixo serve para remover a decoração das li do HTML.*/
     list-style-type: none;
     position: relative;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-texto);
 }
 
 .nav::after{
