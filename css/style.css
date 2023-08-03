@@ -6,7 +6,7 @@
 }
 
 header{
-    background-color: black;
+    background-color: rgb(26, 20, 20);
 }
 
 main{
@@ -133,6 +133,10 @@ a{
     box-shadow: 15px -50px 300px 10px rgb(25, 32, 50);
 }
 
+#destaques{
+    background:rgb(26, 20, 20);
+}
+
 .diferenciais{
     color: var(--color-texto);
     font-family: var(--font-family-principal);
@@ -156,6 +160,8 @@ a{
     display: flex;
     width: 15rem;
     height: 15rem;
+    border-style: double;
+    border-width: 5px;
     background-color: #463DD6;
     border-radius: 10%;
     align-items: center;

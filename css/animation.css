@@ -39,7 +39,7 @@
 /*-----------Animação corpo do website-----------*/
 [data-anime]{
     opacity: 0;
-    transition: 0.5s;
+    transition: 1.5s;
 }
 
 [data-anime="left"]{
