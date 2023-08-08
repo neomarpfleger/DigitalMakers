@@ -28,7 +28,8 @@ footer{
 }
 
 .logoSite{
-    font-family: var(--font-family-principal);
+    width: auto;
+    height: 5rem;
 }
 
 .linksNav{
