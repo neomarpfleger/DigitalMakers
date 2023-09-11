@@ -28,8 +28,8 @@ footer{
 }
 
 .logoSite{
-    width: auto;
-    height: 5rem;
+    font-family: var(--font-family-principal);
+    font-size: 2.5rem;
 }
 
 .linksNav{
@@ -161,9 +161,8 @@ a{
     display: flex;
     width: 15rem;
     height: 15rem;
-    border-style: double;
-    border-width: 5px;
-    background-color: #463DD6;
+    border: white 5px double;
+    background-color: #3e3b66;
     border-radius: 10%;
     align-items: center;
     text-align: center;

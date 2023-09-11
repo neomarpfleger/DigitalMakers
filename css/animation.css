@@ -103,6 +103,7 @@
 .diferencial{
     opacity: 0;
     visibility: hidden;
+    border:white 5px double;
 }
 
 .diferencial.animete{
