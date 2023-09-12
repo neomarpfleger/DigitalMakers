@@ -1,4 +1,7 @@
 
+
+//A função debounce serve para reduzir o numero de ativação da função com o scroll.
+
 const debounce = function(func, wait, immediate){
   let timeout;  
   return function(...args) {

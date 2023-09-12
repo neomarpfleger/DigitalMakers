@@ -47,16 +47,16 @@
 }
 
 [data-anime="right"]{
-    transform: translate3d(-150px, 0, 0);   
+    transform: translate3d(150px, 0, 0);   
 }
 
-/*[data-anime="bottom"].divArtigos{
+[data-anime="bottom"]{
     transform: translate3d(0, 150px, 0);
-}*/
+}
 
 [data-anime].animete{
     opacity: 1;
-    transform: translate3d(0, 0, 0);
+    transform: translate3d(0px, 0px, 0px);
 }
 
 @keyframes projetos{
@@ -85,7 +85,7 @@
     animation: projetos 2s;
 }
 
-@keyframes diferencial{
+/*@keyframes diferencial{
     from{
         display: none;
         visibility: hidden;
@@ -110,4 +110,4 @@
     opacity: 1;
     visibility: visible;
     animation: diferencial 2s; 
-}
+}*/
