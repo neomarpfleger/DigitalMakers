@@ -142,7 +142,7 @@ a{
     color: var(--color-texto);
     font-family: var(--font-family-principal);
     text-align: center;
-    margin: 2rem 0 6rem;
+    padding: 4rem 0 4rem 0;    
 }
 
 #diferenciais{
@@ -157,12 +157,20 @@ a{
     flex-wrap: wrap;
 }
 
-.diferencial{
+.conteinerDiferencial{
     display: flex;
+    justify-content: space-around;
+    width: 80%;
+    height: 22rem;
+    margin: auto;
+}
+
+.diferencial{
     width: 15rem;
     height: 15rem;
-    border: white 5px double;
-    background-color: #3e3b66;
+    border: none;
+    color: var(--color-texto);
+    background-color: rgba(255, 255, 255, 0.048);
     border-radius: 10%;
     align-items: center;
     text-align: center;
