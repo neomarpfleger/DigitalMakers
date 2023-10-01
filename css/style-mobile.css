@@ -1,4 +1,14 @@
 @media screen and (max-width: 480px) {
+
+    .cabecalho{
+        display: block;
+        width: auto;
+        box-sizing: border-box;
+    }
+
+    .linksNav{
+        display: block;
+    }
     
     .textoPrimario{
         box-sizing: border-box;
@@ -16,6 +26,10 @@
         font-size: 1rem;
         line-height: 0.5rem;
         opacity: 0;
+    }
+
+    #imgTecnologia{
+        box-shadow: none;
     }
 
     #img3d{
@@ -57,23 +71,19 @@
 
     .projetos{
         width: 80%;
-        display: flex;
-        flex-wrap: wrap;
-        margin: 0 auto;
-        padding-bottom: 1.5rem;
+        display: block;
     }
     
     .titArtigos{
         font-family: var(--font-family-principal);
         color: white;
         text-align: center;
-        margin: 6rem 0 6rem;
+        margin: 0 auto;
     }
     
     .divArtigos{
         width: 200px;
         height: 200px;
-        margin-bottom: 1rem;
     }
 
     .contatos{
