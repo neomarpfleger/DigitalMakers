@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 :root{
    --color-texto-nav:#f5f578;
    --color-texto: white; 
@@ -23,7 +28,6 @@ footer{
     color: var(--color-texto);
     align-items: center;
     justify-content:center;
-    gap: 20rem;
     height: 5rem;
 }
 
@@ -32,7 +36,7 @@ footer{
     font-size: 2.5rem;
 }
 
-.linksNav{
+#linksNav{
     display: flex;
     flex-direction: row;
     gap: 2rem;
@@ -44,7 +48,10 @@ footer{
     /*Linha abaixo serve para remover a decoração das li do HTML.*/
     list-style-type: none;
     position: relative;
-    text-decoration: none;
+}
+
+#btnMobile{
+    display: none;
 }
 
 a{
