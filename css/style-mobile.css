@@ -10,8 +10,41 @@
     }
 
     #btnMobile{
-        display:block;
+        display:flex;
         margin-right: 1rem;
+        color:var(--color-texto);
+        font-family: var(--font-family-principal);
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: 7px;
+    }
+
+    #hamburger{
+        border-top:2px solid var(--color-texto);
+        width: 20px;
+    }
+
+    #hamburger::after, #hamburger::before{
+        content: " ";
+        display: block;
+        width: 20px;
+        border-top: 2px solid var(--color-texto);
+        margin-top: 5px;
+        margin-right: 1rem;
+    }
+
+    #linksNav.ative, #hamburger::before{
+        border-top-color: transparent;
+    }
+
+    #linksNav.ative, #hamburger{
+
+    }
+
+    #linksNav.ative, #hamburger::after{
+        
     }
 
     #linksNav{
