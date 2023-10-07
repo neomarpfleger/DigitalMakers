@@ -210,7 +210,7 @@ a{
     gap: 1rem;
     width: 60%;
     height: 5rem;
-    border: 1px solid white;
+    border: none;
     align-items: center;
     border-radius: 10px;
     margin: 2rem auto;

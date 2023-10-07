@@ -8,9 +8,14 @@
         justify-content:space-between;
     }
 
+    .logoSite{
+        font-size: 2rem;
+        margin-left: 0.5rem;
+    }
+
     #btnMobile{
         display:flex;
-        margin-right: 1rem;
+        margin-right: 0.5rem;
         color:var(--color-texto);
         font-family: var(--font-family-principal);
         font-size: 1rem;
@@ -151,18 +156,59 @@
         height: auto;
     }
 
+    .titArtigos{
+        margin-top: 5rem;
+    }
+
+    .divArtigos{
+        margin: 5rem auto;
+    }
+
     #email p{
+        display: none;
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .itemContato{
         font-size: 1.5rem;
     }
 
-    .rodape{
-        display: flex;
-        height: 9rem;
-        margin: 1rem auto;
+    .itemContato a{
+        font-size: 1rem;
+        line-height: 0.5rem;
+    }
+
+    #contatos{
+        display: block;
+        width: 100%;
+        height: auto;
+        line-height: 2rem;
+    }
+
+    .contatoDireto{
+        padding-bottom: 2rem;
+    }
+
+    .redesSociais{
+        display:flex;
+        align-items: center;
         justify-content: center;
+        margin: auto;
+        gap: 1rem;
+    }
+
+    .redesSociais i{
+        margin: 1rem auto
     }
 
     .rodape{
-        display: none;
+        display: block;
     }
+
+    .copy{
+        text-align: center;
+        justify-content: center;
+    }
+
 }
