@@ -2,11 +2,10 @@
 
     .cabecalho{
         display: flex;
+        flex-direction: row;
         width: 100%;
         align-items: center;
         justify-content:space-between;
-        box-sizing: content-box;
-    
     }
 
     #btnMobile{
@@ -21,32 +20,35 @@
         gap: 7px;
     }
 
-    #hamburger{
+   #hamburger{
         border-top:2px solid var(--color-texto);
         width: 20px;
     }
 
     #hamburger::after, #hamburger::before{
-        content: " ";
+        content: "";
         display: block;
         width: 20px;
-        border-top: 2px solid var(--color-texto);
+        height: 2px;
+        background: var(--color-texto);
         margin-top: 5px;
         margin-right: 1rem;
+        transition: 0.3s;
+        position: relative;
     }
 
-    #linksNav.ative, #hamburger::before{
+     /*#linksNav.ative, #hamburger{
         border-top-color: transparent;
     }
 
-    #linksNav.ative, #hamburger{
-
+    #linksNav.ative, #hamburger::before{
+        transition:rotate(135deg);
     }
 
     #linksNav.ative, #hamburger::after{
-        
-    }
-
+        transition:rotate(-135deg);
+    }*/
+    
     #linksNav{
         display: block;
         position: absolute;
@@ -55,13 +57,13 @@
         right: 0rem;
         height: 0px;
         transition: 0.6s;
+        visibility:hidden;
+        overflow: hidden;
         background: rgb(26, 20, 20);
         z-index: 1000;
-        visibility: hidden;
-        overflow-y: hidden;
     }
 
-    #linksNav.ative{
+    #navegador #linksNav.ative{
         display: block;
         height: calc(100vh - 5rem);
         visibility: visible;
@@ -72,7 +74,7 @@
         box-sizing: border-box;
         font-size: 1rem;
         font-family: var(--font-family-principal);
-        line-height: 1.2rem;
+        line-height: 1.5rem;
         margin:2rem auto 0;
     }
 
@@ -82,7 +84,7 @@
 
     .textoSecundario{
         font-size: 1rem;
-        line-height: 0.5rem;
+        line-height: 1.5rem;
         opacity: 0;
     }
 
