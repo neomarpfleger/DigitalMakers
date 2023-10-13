@@ -28,8 +28,18 @@ footer{
     color: var(--color-texto);
     align-items: center;
     justify-content:space-around;
-    height: 5rem;
+    height: 7rem;
+}
 
+.fotoLogo{
+    width: 14rem;
+    height: 7rem;
+    overflow: hidden;
+}
+
+.fotoLogo img{
+    width: 100%;
+    height: 100%;
 }
 
 .logoSite{
