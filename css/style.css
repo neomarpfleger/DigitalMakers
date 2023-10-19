@@ -32,7 +32,7 @@ footer{
 }
 
 .fotoLogo{
-    width: 14rem;
+    width: auto;
     height: 7rem;
     overflow: hidden;
 }

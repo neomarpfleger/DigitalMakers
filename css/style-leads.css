@@ -35,24 +35,6 @@ body{
     text-align: center;
 }
 
-.txtLeads h1{
-    color: #fff;
-    font-size: 1.2em;
-    font-weight: 500;
-    text-align: left;
-    font-family: var(--font-raleway);
-}
-
-.txtLeads h1 span{
-    font-size: 2em;
-    font-weight: 800;
-}
-
-.txtLeads img{
-    width: 20em;
-    margin: 3em 0;
-}
-
 .txtLeads p{
     color: #fff;
     font-size: 1.3em;
@@ -127,4 +109,58 @@ form h2 span{
     border-radius: 10px;
     font-weight: 500;
     cursor: pointer;
+}
+
+/*********** Mobile **********/
+
+/*Transforme sua presença online em resultados reais não perca oportunidades. Invista em um site personalizado que destaque seu negócio */
+
+@media screen and (max-width: 480px) {
+
+    .flex{
+        display: block;
+        align-items: center;
+        justify-content: space-around;
+        height: 100vh;
+    }
+
+    .imgLogo{
+        width: 50%;
+        margin-left: 2rem;
+    }
+
+    .imgLogo img{
+        width: 100%;
+        margin: 2rem auto 1rem;
+    }
+
+    form{
+        width: 80%;
+        background-color: #00000073;
+        border-radius: 20px;
+        padding: 40px;
+        font-family: var(--font-poppins);
+        font-weight: 400;
+        margin: 2rem auto;
+    }
+
+    .txtLeads{
+        width: 80%;
+        text-align: center;
+        margin: 3rem auto;
+    }
+    
+    .txtLeads p{
+        color: #fff;
+        font-size: 1.3em;
+        text-align: left;
+        font-family: var(--font-poppins);
+    }
+    
+    .txtLeads p span{
+        font-size: 1.8em;
+        font-weight: 600;
+        margin-top: 1.5rem;
+    }
+
 }
