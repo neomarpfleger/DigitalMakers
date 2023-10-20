@@ -16,7 +16,7 @@ html{
 
 body{
     height: 100vh;
-    background-image: linear-gradient(to left, #02dbe4, #000131);
+    background-image: linear-gradient(to left, #6204ce, #030008);
 }
 
 .container{
@@ -31,14 +31,21 @@ body{
     height: 100vh;
 }
 
+.imgLogo{
+    margin: 2rem;
+}
+
 .txtLeads{
-    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    display: block;
 }
 
 .txtLeads p{
     color: #fff;
     font-size: 1.3em;
     text-align: left;
+    padding: 10rem 0 0 2rem;
     font-family: var(--font-poppins);
 }
 
@@ -46,6 +53,12 @@ body{
     font-size: 1.8em;
     font-weight: 600;
 }
+
+.formLeads{
+    width:50rem;
+    margin-right: 5rem;
+}
+
 
 form{
     width: 100%;
