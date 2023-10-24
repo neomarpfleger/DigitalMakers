@@ -20,5 +20,6 @@ function verificaCampo(){
 
     if(campo.value===""){
         alert("favor preencher este campo");
+
     }
 }
