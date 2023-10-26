@@ -3,16 +3,25 @@
     padding: 0;
 }
 
-.contentor{
+/*.contentor{
     display: flex;
     justify-content: center;
     width:100vw;
     height: 100vh;
     background-image: url(../imagens/thanks.png);
     background-size: 100% 100%;/*Isso fará com que a imagem se ajuste à largura e altura da tela, mas pode distorcer a imagem se as proporções não coincidirem.*/
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;
     overflow: hidden;
-    background-attachment: fixed; /* Mantém a imagem fixa enquanto a página rola */
+    background-attachment: fixed; /* Mantém a imagem fixa enquanto a página rola 
+}*/
+
+.contentor{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:linear-gradient(to left, #030008, #6204ce ,#030008);
 }
 
 h1{
@@ -20,10 +29,9 @@ h1{
 }
 
 .btnVoltar{
-    width: 10rem;
-    height: 2rem;
+    width: 15rem;
+    height: 4rem;
     background-color: rgb(255, 72, 0);
     border-radius: 10px;
     cursor: pointer;
-    margin-top: 80vh;
 }
