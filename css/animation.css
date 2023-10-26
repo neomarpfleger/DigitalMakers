@@ -59,6 +59,8 @@
     transform: translate3d(0px, 0px, 0px);
 }
 
+/*Verifcar se acabou o bug da animação ultima sessão do corpo do site.
+
 @keyframes projetos{
     from{
         display: none;
@@ -72,11 +74,17 @@
         opacity: 1;
         transform: translateY(none);
     }
+}*/
+
+.divArtigos{
+    opacity: 0;
+    visibility: hidden;
 }
 
 .divArtigos.animete{
+    opacity: 1;
     visibility: visible;
-    animation: projetos 2s forwards;
+    animation: projetos 2s;
 }
 
 /*@keyframes diferencial{
