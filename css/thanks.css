@@ -4,9 +4,11 @@
 }
 
 .contentor{
+    display: flex;
+    justify-content: center;
     width:100vw;
     height: 100vh;
-    background-image: url(../imagens/img_thanks.jpg);
+    background-image: url(../imagens/thanks.png);
     background-size: 100% 100%;/*Isso fará com que a imagem se ajuste à largura e altura da tela, mas pode distorcer a imagem se as proporções não coincidirem.*/
     background-repeat: no-repeat;
     overflow: hidden;
@@ -15,4 +17,13 @@
 
 h1{
     color: white;
+}
+
+.btnVoltar{
+    width: 10rem;
+    height: 2rem;
+    background-color: rgb(255, 72, 0);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 80vh;
 }

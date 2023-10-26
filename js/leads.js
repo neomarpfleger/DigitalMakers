@@ -14,12 +14,15 @@ function verificarFormularioPreenchido() {
 }
 
 
-function verificaCampo(){
+function verificaCampo(event){
 
     var campo = document.getElementById("nome");
+    var error = document.getElementById("error");
 
     if(campo.value===""){
-        alert("favor preencher este campo");
-
+        error.style.display = 'block';
+        event.preventDefault();
+    } else {
+        emailError.style.display = 'none';
     }
 }
