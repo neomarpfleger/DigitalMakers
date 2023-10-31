@@ -19,7 +19,7 @@ function verificaCampo(event){
     var campo = document.getElementById("nome");
     var error = document.getElementById("error");
 
-    if(campo.value===""){
+    if(campo.value ===""){
         error.style.display = 'block';
         event.preventDefault();
     } else {

@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+:root{
+    --color1:#04364A;
+    --color2:#176B87;
+    --color3:#64CCC5;
+    --font-family: 'Indie Flower', cursive;
+    --font-family2: 'Alegreya Sans', sans-serif;
+}
+
 /*.contentor{
     display: flex;
     justify-content: center;
@@ -20,18 +28,40 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    gap: 5rem;
     align-items: center;
-    background:linear-gradient(to left, #030008, #6204ce ,#030008);
+    background:linear-gradient(to left, var(--color1),var(--color3) ,var(--color1));
 }
 
 h1{
+    font-family: var(--font-family);
     color: white;
+    font-size: 2.5rem;
+    margin-top: 17%;
 }
 
 .btnVoltar{
     width: 15rem;
     height: 4rem;
-    background-color: rgb(255, 72, 0);
+    color: white;
+    font-family: var(--font-family2);
+    font-weight: 500;
+    font-size: 1.2rem;
+    background-color:var(--color2);
+    border: none;
     border-radius: 10px;
     cursor: pointer;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.79);
+}
+
+@media screen and (max-width: 480px) {
+
+    .contentor{
+
+    }
+
+    h1{
+        margin-top: 60%;
+        font-size: 1.4rem;
+    }
 }

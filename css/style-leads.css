@@ -10,12 +10,7 @@
     font-size: var(--font-poppins);
 }
 
-html{
-    height: 100vh;
-}
-
 body{
-    height: 100vh;
     background-image: linear-gradient(to left, #6204ce, #030008);
 }
 
@@ -28,7 +23,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 100vh;
 }
 
 .imgLogo{
@@ -135,12 +129,11 @@ form h2 span{
         display: block;
         align-items: center;
         justify-content: space-around;
-        height: 100vh;
     }
 
     .imgLogo{
         width: 60%;
-        margin: 0 1rem;
+        margin: 0 auto;
     }
 
     .imgLogo img{
