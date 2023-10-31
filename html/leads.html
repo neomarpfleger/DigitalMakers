@@ -21,14 +21,14 @@
                     </p>
                 </div>
                 <div class="formLeads">
-                    <form id="meuFormulario" action="https://gmail.us21.list-manage.com/subscribe/post?u=14ad2c5d4319a4b0f28a92f72&amp;id=9ac4a5f20e&amp;f_id=00dee6e6f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self" novalidate="">                       
+                    <form id="meuFormulario" action="https://gmail.us21.list-manage.com/subscribe/post?u=14ad2c5d4319a4b0f28a92f72&amp;id=9ac4a5f20e&amp;f_id=00dee6e6f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self">                       
                         <h2>INSIRA SEUS DADOS <br>
                             <span>E BREVE ENTRAREMOS EM CONTATO.</span>
                         </h2>
                         <div class="imputBox">
                             <label for="nome">Seu nome completo*:</label>
                             <input type="text" name="FNAME" id="nome" required>
-                            <span id="error" style="color: red; display: none;">Favor preencher este campo</span>
+                            <span class="error" style="color: red; display: none;">Favor preencha este campo!</span>
                         </div>
                         <div class="imputBox">
                             <label for="nome">Seu telefone:</label>
@@ -36,8 +36,8 @@
                         </div>
                         <div class="imputBox">
                             <label for="nome">Seu e-mail*:</label>
-                            <input type="text" name="EMAIL" id="nome" required>
-                            <span id="error" style="color: red; display: none;">Favor preencher este campo</span>
+                            <input type="text" name="EMAIL" id="email" required>
+                            <span class="error" style="color: red; display: none;">Favor preencha este campo!</span>
                         </div>
                         <div class="imputBox">
                             <label for="mensagem">Deixe sua mensagem:</label>
@@ -50,7 +50,7 @@
                         </div>
 
                         <div class="btnEnviar">
-                            <input type="submit" onclick="verificaCampo(),verificarFormularioPreenchido()" value="ENVIAR">
+                            <input type="submit" onclick="verificaCampo()" value="ENVIAR">
                         </div>
                     </form>
                 </div>
