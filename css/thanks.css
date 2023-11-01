@@ -7,7 +7,7 @@
     --color1:#04364A;
     --color2:#176B87;
     --color3:#64CCC5;
-    --font-family: 'Indie Flower', cursive;
+    --font-family: 'Agbalumo', cursive;
     --font-family2: 'Alegreya Sans', sans-serif;
 }
 
@@ -33,11 +33,15 @@
     background:linear-gradient(to left, var(--color1),var(--color3) ,var(--color1));
 }
 
+img{
+    margin-top: 1.5rem;
+}
+
 h1{
     font-family: var(--font-family);
     color: white;
     font-size: 2.5rem;
-    margin-top: 17%;
+    margin-top: 5%;
 }
 
 .btnVoltar{
@@ -56,12 +60,8 @@ h1{
 
 @media screen and (max-width: 480px) {
 
-    .contentor{
-
-    }
-
     h1{
-        margin-top: 60%;
+        margin-top: 50%;
         font-size: 1.4rem;
     }
 }

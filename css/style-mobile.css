@@ -73,7 +73,7 @@
     }
 
     #imgTecnologia{
-        box-shadow: none;
+        box-shadow: 5px -25px 100px 30px rgb(25, 32, 50);
     }
 
     #img3d{

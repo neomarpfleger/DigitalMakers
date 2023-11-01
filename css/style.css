@@ -189,7 +189,7 @@ a{
     height: 15rem;
     border: none;
     font-family: var(--font-family-segundaria);
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: var(--color-texto);
     background-color: rgba(255, 255, 255, 0.048);
     border-radius: 10%;
