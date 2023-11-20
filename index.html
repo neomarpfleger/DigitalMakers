@@ -19,7 +19,6 @@
     
     </head>
     <body>
-
         <header>
             <div id="cabecalho" class="cabecalho">
                 <div class="fotoLogo">
@@ -32,9 +31,9 @@
                     </button>
 
                     <ul id="linksNav">
+                        <li class="nav"><a href="#imgServicos">Serviços</a></li>
                         <li class="nav"><a href="#destaques">Diferenciais</a></li>
-                        <!--<li class="nav">Quem Somos</li>  Ajustar futuramente-->
-                        <li class="nav"><a href="#nossoTrabalho">Portifólio</a></li>
+                        <li class="nav"><a href="#btnOrcamentos">Orçamento</a></li>
                         <li class="nav"><a href="#contatos">Contato</a></li>
                         <!--<li class="nav"><a href="#contatos">Blog</a></li>-->
                     </ul>
@@ -46,13 +45,19 @@
             <section>
                 <div id="textoPrimarioCenter">
                     <div class="textoPrimario">
-                        <h1>Projetamos e Desenvolvemos</h1>
-                        <h1>Produtos e Aplicações</h1>
+                        <h1>Destaque-se no mundo digital com</h1>
+                        <h1>nossos serviços personalizados em</h1>
+                        <h1>midias sociais e criação de sites</h1>
                     </div>
                 </div>
-                <div texto2>
-                    <h3 class="textoSecundario" style="animation-delay: 1.5s;">Web Sites, blogs, Landing Page</h3>
-                    <h4 class="textoSecundario" style="animation-delay: 2.5s;">Deixe-nos Alavancar Sua Marca!</h4>
+                <div class="txtSecundario">
+                    <h3 class="textoSecundario" style="animation-delay: 1.5s;">Conheça os nossos serviços</h3>
+                    <h4 class="textoSecundario" style="animation-delay: 2.5s;">Deixe-nos elevar sua marca!</h4>
+                </div>
+            </section>
+            <section>
+                <div class="nossoServicos" id="imgServicos">
+                    <img class="imgServicos" src="./imagens/imgServisos.png" alt="imagem apresentando nossos servisos">
                 </div>
                 <div id="orcamento">
                     <button id="btnOrcamentos"><a href="./html/leads.html">Solicite seu Orçamento</a></button>
@@ -60,7 +65,7 @@
             </section>
             <section>
                 <div id="img3d">
-                    <img id="imgTecnologia" src="./imagens/Tecnologia.jpg" alt="">
+                    <img id="imgTecnologia" src="./imagens/imagem site 2.png" alt="">
                 </div>
             </section>
             <section id="destaques">
@@ -82,7 +87,7 @@
                 <h2 class="titCrescimento">Como vamos ajudar sua empresa à crescer!</h2> 
                 <div class="divCrescimento" data-anime="left">
                     <p class="icones"><i class="fa-solid fa-handshake"></i></p>
-                    <p>Vamos á sua empresa conhecer o seU inside para identificamos como fazer e melhor ponte de seu produto com seus clientes.</p>
+                    <p>Vamos á sua empresa conhecer o seu inside para identificamos como fazer e melhor ponte de seu produto com seus clientes.</p>
                 </div>
                 <div class="divCrescimento" data-anime="left">
                     <p class="icones"><i class="fa-sharp fa-solid fa-computer"></i></p>
@@ -100,7 +105,7 @@
                     <p class="icones"><i class="fa-solid fa-check"></i></p>
                     <p>Utilizamos palavras chave para que os motores de busca do google localize facilmente seu site.</p>
                 </div>
-            </section>
+            <!--</section>
             <h2 id="titArtigos" class="titArtigos">Projetos Realizados.</h2>
             <section class="projetos">
                 <div class="divArtigos" data-anime="bottom"></div>
@@ -110,17 +115,17 @@
             <section class="depoimentos">
                 <h2 class="tit Depoimentos">Depoimentos de nossos Clientes</h2>
                 <div class="div Depoimentos"></div>
-            </section>
+            </section>-->
 
         </main>
         <footer>
             <div id="contatos">
                 <div id="email">
-                    <p>digitalmakers@gmail.com</p>
+                    <p>comercialdigitalmakers@gmail.com</p>
                 </div>
                 <div class="contatoDireto">
-                    <p class="itemContato">digitalmakers@gmail.com</p>
-                    <p class="itemContato">(48) 9 9857-5175</p>
+                    <p class="itemContato">comercialdigitalmakers@gmail.com</p>
+                    <p class="itemContato">(48) 9 99926-6778</p>
                     <p class="itemContato"></p>
                     <p class="itemContato"></p>
                 </div>
@@ -147,7 +152,13 @@
         <script src="./js/script.js"></script>
         <script type="text/javascript" src="./js/vanilla-tilt.js"></script>
         <script>
-            VanillaTilt.init(document.querySelectorAll("#img3d"),{
+             VanillaTilt.init(document.querySelector("#imgServicos"),{
+                max: 25,
+                speed: 300,
+                glare: true,
+                "max-glare": 1
+            });
+            VanillaTilt.init(document.querySelector("#img3d"),{
                 max: 25,
                 speed: 300,
                 glare: true,

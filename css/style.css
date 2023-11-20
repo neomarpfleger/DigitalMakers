@@ -99,16 +99,20 @@ a{
 
     box-sizing: border-box;
     color: var(--color-texto);
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     text-align: center;
     font-family: var(--font-family-principal);
-    line-height:5rem;
-    margin:8rem auto 0;
+    line-height:3rem;
+    margin:7rem auto 0;
     background-image: linear-gradient(to right,#463DD6,#FF0090, #FFFF69 );
     -webkit-background-clip: text;
     display: inline-block;
     padding: 0px;
     -webkit-text-fill-color: #00000000;
+}
+
+.txtSecundario{
+    padding-top: 1.2rem;
 }
 
 .textoSecundario{
@@ -119,13 +123,27 @@ a{
     opacity: 0;
 }
 
+.nossoServicos{
+    
+    width: 80%;
+    margin: 0 auto;
+}
+
+#imgServicos{
+    margin-top: 7rem;
+}
+
+.imgServicos{
+    width: 100%;  
+}
+
 #orcamento{
     display: flex;
     align-items: center;
 }
 
 #btnOrcamentos{
-    background-color: rebeccapurple;
+    background-image: linear-gradient(to right,#463DD6,#FF0090, #FFFF69 );
     border-radius: 10px;
     color: var(--color-texto);
     font-size: 1rem;
@@ -136,7 +154,7 @@ a{
 
 #btnOrcamentos:hover{
     cursor: pointer;
-    opacity: 0.20;
+    scale: 1.2;
 }
 
 #img3d{
@@ -213,6 +231,10 @@ a{
     color:var(--color-texto);
     text-align: center;
     margin: 6rem 0 6rem;
+}
+
+#nossoTrabalho{
+    height: 48rem;
 }
 
 .divCrescimento{
