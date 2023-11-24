@@ -56,10 +56,10 @@
     
     .textoPrimario{
         box-sizing: border-box;
-        font-size: 1rem;
+        font-size: 0.7rem;
         font-family: var(--font-family-principal);
-        line-height: 2rem;
-        margin: 2rem auto 1.5rem;
+        line-height: 1rem;
+        margin: 2rem auto 0;
     }
 
     .textoPrimario h1{
@@ -70,6 +70,10 @@
         font-size: 1rem;
         line-height: 1.5rem;
         opacity: 0;
+    }
+
+    #imgServicos{
+        margin-top: 5rem;
     }
 
     #imgTecnologia{

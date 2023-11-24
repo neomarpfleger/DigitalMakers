@@ -131,10 +131,12 @@ a{
 
 #imgServicos{
     margin-top: 7rem;
+    border-radius: 10px;
 }
 
 .imgServicos{
-    width: 100%;  
+    width: 100%; 
+    border-radius: 10px; 
 }
 
 #orcamento{
