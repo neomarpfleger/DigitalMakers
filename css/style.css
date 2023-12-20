@@ -135,8 +135,9 @@ a{
 }
 
 .imgServicos{
-    width: 100%; 
-    border-radius: 10px; 
+    width: 100%;
+    box-shadow: 15px -50px 300px 10px rgb(25, 32, 50);
+    border-radius: 10px;
 }
 
 #orcamento{
@@ -164,6 +165,28 @@ a{
     margin: 0 auto 6rem;
     border-radius: 20px;
     
+}
+
+#flexQuemSomos{
+    display: flex;
+    flex-direction: column;
+}
+
+#textoQuemSomos{
+    display: flex;
+    flex-direction: column;
+}
+
+#textoQuemSomos h2{
+    color: var(--color-texto);
+    justify-content: center;
+    margin: 0 auto 3rem;
+}
+
+.quemSomos{
+    color: var(--color-texto);
+    justify-content: center;
+    margin: 0 auto 6rem;
 }
 
 #imgTecnologia{
