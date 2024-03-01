@@ -63,7 +63,7 @@
     }
 
     .textoPrimario h1{
-        margin: 0 2rem;
+        margin: 0 0.2rem;
     }
 
     .textoSecundario{
@@ -78,6 +78,11 @@
 
     #imgTecnologia{
         box-shadow: 5px -25px 100px 30px rgb(25, 32, 50);
+    }
+
+    #textoQuemSomos p{
+        width: 65%;
+        font-size: 0.7rem;
     }
 
     #img3d{
@@ -155,7 +160,7 @@
     }
 
     .itemContato{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .itemContato a{

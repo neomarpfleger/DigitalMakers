@@ -10,6 +10,10 @@
    --font-family-segundaria: 'Raleway', sans-serif;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 header{
     background-color: rgb(26, 20, 20);
 }
@@ -164,26 +168,27 @@ a{
     width: 70%;
     margin: 0 auto 6rem;
     border-radius: 20px;
-    
 }
 
-#flexQuemSomos h2{
-    display: grid;
+#textoQuemSomos{
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    margin: 5rem 0;
-    font-family: var(--font-family-principal);
-}
-
-#flexQuemSomos p{
-    display: grid;
-    align-items: center;
-    margin: 5rem 0;
 }
 
 #textoQuemSomos h2{
+    margin: 0 0 5rem;
+    font-family: var(--font-family-principal);
     color: var(--color-texto);
-    justify-content: center;
-    margin: 0 auto 3rem;
+}
+
+#textoQuemSomos p{
+    width: 60%;
+    height: auto;
+    display: grid;
+    align-items: center;
+    margin: 0 0 5rem;
+    font-family: var(--font-family-segundaria);
 }
 
 .quemSomos{
@@ -375,6 +380,8 @@ footer{
 .itemContato{
     margin: 0.3rem;
     font-size: 1.1rem;
+    font-family: var(--font-family-segundaria);
+    font-weight: 900;
 }
 
 .itemContato a{
@@ -412,6 +419,7 @@ footer i{
 .copy{
     font-size: 1rem;
     color: white;
+    font-family: var(--font-family-segundaria);
     margin-bottom:0.3rem ;
 }
 .textoCopy{
