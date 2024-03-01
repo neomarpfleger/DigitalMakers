@@ -167,14 +167,17 @@ a{
     
 }
 
-#flexQuemSomos{
-    display: flex;
-    flex-direction: column;
+#flexQuemSomos h2{
+    display: grid;
+    align-items: center;
+    margin: 5rem 0;
+    font-family: var(--font-family-principal);
 }
 
-#textoQuemSomos{
-    display: flex;
-    flex-direction: column;
+#flexQuemSomos p{
+    display: grid;
+    align-items: center;
+    margin: 5rem 0;
 }
 
 #textoQuemSomos h2{
