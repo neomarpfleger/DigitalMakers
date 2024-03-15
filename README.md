@@ -26,6 +26,6 @@ Contato
 Para mais informações  ou para entrar em contato conosco, você pode nos encontrar em:
 
 Neomar Pflerger: neomarpflerger@gmail.com
+
 Kamila Martins: k.mmila1609@gmail.com
-Licença
-Este projeto é distribuído sob a licença MIT. Consulte o arquivo LICENSE para obter mais informações.
+
