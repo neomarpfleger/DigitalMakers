@@ -7,7 +7,7 @@ Utiliza as linguagens HTML, CSS e JavaScript para fornecer uma experiência comp
 
 Funcionalidades Principais
 
-Desenvolvimento de Websites: oferece-mos serviços para criação e desenvolvimento de websites personalizados para diferentes necessidades
+Desenvolvimento de Websites:  Oferece-mos serviços para criação e desenvolvimento de websites personalizados para diferentes necessidades
 
 Artes Visuais: Os usuários podem solicitar e personalizar elementos visuais para seus projetos, como logotipos, banners, entre outros.
 
@@ -28,4 +28,8 @@ Para mais informações  ou para entrar em contato conosco, você pode nos encon
 Neomar Pflerger: neomarpflerger@gmail.com
 
 Kamila Martins: k.mmila1609@gmail.com
+
+Licença
+
+Este projeto é distribuído sob a licença MIT. Consulte o arquivo LICENSE para obter mais informações.
 
