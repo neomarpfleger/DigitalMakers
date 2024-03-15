@@ -1,13 +1,15 @@
 Projeto Digital Makers
 
-Bem-vindo ao Projeto Digital Makers! Este projeto, desenvolvido por Neomar Pflerger e Kamila Martins, é uma plataforma para oferta de serviços de desenvolvimento de websites e artes visuais. Utiliza as linguagens HTML, CSS e JavaScript para fornecer uma experiência completa e personalizável aos usuários.
+Bem-vindo ao Projeto Digital Makers! Este projeto, desenvolvido por Neomar Pflerger e Kamila Martins, é uma plataforma para oferta de serviços de desenvolvimento de websites e artes visuais. 
+
+Utiliza as linguagens HTML, CSS e JavaScript para fornecer uma experiência completa e personalizável aos usuários.
 
 
 Funcionalidades Principais
-Desenvolvimento de Websites: O Digital Makers oferece serviços para criação e desenvolvimento de websites personalizados para diferentes necessidades.
 
+Desenvolvimento de Websites: oferece-mos serviços para criação e desenvolvimento de websites personalizados para diferentes necessidades
 
-Artes Visuais: Além do desenvolvimento web, os usuários podem solicitar e personalizar elementos visuais para seus projetos, como logotipos, banners, entre outros.
+Artes Visuais: Os usuários podem solicitar e personalizar elementos visuais para seus projetos, como logotipos, banners, entre outros.
 
 Tecnologias Utilizadas: O projeto é construído utilizando as seguintes tecnologias:
 
